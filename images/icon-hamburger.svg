@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 13.229166 13.229167"
+   version="1.1"
+   id="svg135"
+   sodipodi:docname="icon-hamburger.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showborder="false"
+     borderlayer="true"
+     inkscape:zoom="2.3447661"
+     inkscape:cx="69.303288"
+     inkscape:cy="85.722836"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg135" />
+  <defs
+     id="defs132" />
+  <g
+     id="layer1"
+     transform="matrix(0.12014532,0,0,0.1183521,-1.3054355,-5.0900893)">
+    <ellipse
+       style="fill:#443f43;fill-opacity:1;fill-rule:evenodd;stroke-width:0.308022"
+       id="path9516"
+       cx="65.92038"
+       cy="98.897041"
+       rx="55.054855"
+       ry="55.889023"
+       inkscape:label="path9516" />
+  </g>
+  <path
+     style="fill:#f6f6fe;fill-opacity:1;stroke:#f6f6fe;stroke-width:0.951437;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+     d="M 1.7378866,4.0651096 H 11.274885"
+     id="path836" />
+  <path
+     style="fill:none;fill-opacity:0;stroke:#f6f6fe;stroke-width:0.951437;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+     d="M 1.7378836,9.2214522 H 11.274868"
+     id="path836-2" />
+  <path
+     style="fill:#f6f6fe;fill-opacity:1;stroke:#f6f6fe;stroke-width:0.951437;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+     d="M 1.7378836,6.641857 H 11.274884"
+     id="path836-3" />
+</svg>

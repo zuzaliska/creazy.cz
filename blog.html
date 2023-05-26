@@ -1,0 +1,32 @@
+---
+layout: layouts/template-for-index.njk
+title: creazy.cz - Blog o kreativitě
+---
+<section class="section">
+
+    <h2 class="section__name">Kreativní blog</h2>
+    <div class="section__container section__container--grid">
+
+        {% for post in collections.blog %}
+    
+        <div class="posts">
+            <div class="posts__pic">
+                <img src="/images/{{ post.data.photo }}" alt="{{ post.data.alt }}">
+                <div class="posts__picture">{{ picture }}</div>
+            </div>
+            <div class="posts__intro">
+                <h3>{{ post.data.title }}</h3>
+                <p class="posts__text">{{ post.data.perex }}</p>
+                <p><a class="posts__anchor" href="{{ post.url }}">Chci si přečíst</a></p>
+            </div>
+        </div>
+    
+        {% endfor %}
+
+    </div>
+</section>
+
+
+
+
+

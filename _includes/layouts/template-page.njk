@@ -1,0 +1,24 @@
+---
+layout: layouts/template.njk
+title: creazy.cz
+---
+<div class="wrapper wrapper--page">
+    <header class="wrapper__header">
+
+        <div class="wrapper__logo"><a href="/">{% include "partials/logo.njk" %}</a></div>
+           
+        <div class="wrapper__menu">{% include "partials/menu.njk" %}</div>
+
+    </header>
+    
+    <main class="wrapper__main">
+
+       {{ content | safe }} 
+
+    </main>
+    
+    <footer class="wrapper__footer">
+        <div >
+            {% include "partials/footer.njk" %}
+        </div>
+    </footer>
