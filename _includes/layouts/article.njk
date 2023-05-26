@@ -3,25 +3,32 @@ layout: layouts/template-for-index.njk
 title: creazy.cz - Blog o kreativitě
 ---
 
-    <article>
-        <section class="section">
+    <section>
+        <div>
+            <a class="article__anchor" href="/blog/">Zpět</a>
+        </div>
+        
+        <article class="article">
             <div>
-                <h3 class="article__title">{{ title }}</h3>
+                <h2 class="article__name">{{ title }}</h2>
             </div>
     
-            <div class="section__container section__container--grid">
+            <div class="article__container">
 
-                <div class="section__photo">
+                <div class="article__photo">
                     <img class="article_photo" src="/images/{{ photo }}" alt="{{ alt }}">
                 </div>
-                <div class="section__about">
+                <div class="article__about">
     
-                    <p class="section__text">{{ perex }}</p>
+                    <p class="article__text">{{ perex }}</p>
     
                     {{ content | safe }}
     
                 </div>
             </div>
 
-        </section>
-    </article>
+        </article>
+        <div>
+            <a class="article__anchor" href="/blog/">Zpět</a>
+        </div>
+    </section>
